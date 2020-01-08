@@ -1,0 +1,123 @@
+body {
+  color: white;
+  background-color: rgb(46, 46, 46);
+}
+
+h1.logo {
+  text-align: center;
+}
+
+ul.menu {
+  background-color: transparent;
+  text-align: center;
+  margin-top: 1%;
+  word-spacing: 1.4rem;
+  font-family: serif;
+  float: center;
+}
+
+li {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(25, 190, 200);
+}
+
+#divider {
+  color: white;
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.vids {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+#working-edit {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.working {
+  width: 40%;
+  float: left;
+  margin-bottom: 5%;
+}
+
+.about-me {
+  width: 35%;
+  margin-right: 20%;
+  color: white;
+  float: right;
+  font-family: serif;
+  font-size: 1.2rem;
+}
+
+#name {
+  font-size: 1.5rem;
+}
+
+.container{
+  padding: 0;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+
+.item {
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+#item {
+  width: 41%;
+  padding: 3%;
+  order: 1;
+}
+
+#item2 {
+  width: 86%;
+  padding: 5%;
+  order: 1;
+  justify-content: center;
+}
+
+.container2 {
+  padding: 0;
+  margin: 30px;
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.item2 {
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.holder {
+  column-count: 2;
+  column-width: 50%;
+}
