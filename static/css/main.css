@@ -91,7 +91,8 @@ a:hover {
 
 #item {
   width: 41%;
-  padding: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
   order: 1;
 }
 
