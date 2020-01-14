@@ -105,8 +105,8 @@ a:hover {
 
 .container2 {
   padding: 0;
-  margin: 30px;
-  width: 50%;
+  margin: 0px;
+  width: 100%;
   display: flex;
   flex-flow: column wrap;
   justify-content: space-evenly;
