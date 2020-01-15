@@ -4,18 +4,17 @@
   <head>
     <meta charset="utf-8">
     <title>JM Design Tape Art</title>
-    <script type="text/javascript" src="script.js"></script>
   </head>
 {% extends "layout.html" %}
 {% block content %}
-<video class="vids" onload="{{ url_for('static', filename='Italy_Tape.mp4') }}">
+<!--<link rel="video" style="background-clip: url( {{ url_for('static', filename='img/Italy_Tape.mp4') }} )">-->
   <body>
-<!--    <div id="bg-vid">
+    <div id="bg-vid">
       <video autoplay muted class="vids">
         <source src="static/img/Italy_Tape.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
-    </div>-->
+    </div>
   </body>
 {% endblock %}
 </html>
